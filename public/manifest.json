@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Cookie Migrator",
+    "description": "Cookie manager that aids migration of cookies between browsers",
+    "version": "1.0",
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "permissions": [
+        "cookies"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    }
+}
